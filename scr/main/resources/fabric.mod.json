@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "dupe_mod",
+  "version": "1.0.0",
+  "name": "Dupe Mod",
+  "description": "Client mod for item duplication (Fabric 1.21). Press X to toggle.",
+  "authors": ["duysamly"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.dupe.mod.DupeMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "fabric": "*",
+    "minecraft": "1.21.x"
+  }
+}
